@@ -27,7 +27,7 @@ class MyComponent extends Component {
 
 it('renders correctly', () => {
   const wrapper = shallow(
-    <MyComponent className="my-component">
+    <MyComponent className="my-components">
       <strong>Hello World!</strong>
     </MyComponent>,
   );
